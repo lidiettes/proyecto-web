@@ -1,0 +1,15 @@
+.banner__style {
+    background-color: bisque;
+    height: 300px;
+    width: 100vw;
+}
+
+.carousel__style {
+    background-color: brown;
+    height: 300px;
+    width: 100vw;
+}
+
+main {
+    height: 100vh;
+}
