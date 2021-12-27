@@ -50,3 +50,7 @@ a:hover {
     margin: 0px;
     width: 100vw;
 }
+
+..h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
