@@ -7,50 +7,47 @@
 a {
     margin: 10px;
     text-decoration: none;
-    color: orange;
+    color: rgb(145, 111, 49);
 }
 
 a:hover {
     color: rgb(252, 250, 248);
 }
 
-.header__style {
+.headerStyle {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: baseline;
     max-height: 120px;
-    background-color: rgb(238, 206, 210);
+    background-color: rgb(226, 210, 188);
     width: 100vw;
 }
 
-.header__style--img {
+.headerStyleImg {
     max-height: 90px;
     margin-top: 15px;
     margin-left: 15px;
 }
 
-.header__style--nav {
+.headerStyleNav {
     display: flex;
     margin-right: 100px;
     font-size: 1.5rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 5px
 }
 
-.main__style {
+.mainStyle {
     height: 100vh;
     background-color: rgb(212, 179, 207);
 }
 
-.footer__style {
+.footerStyle {
     height: 120px;
     background-color: rgb(134, 132, 130);
     position: absolute;
     margin: 0px;
     width: 100vw;
-}
-
-..h2 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

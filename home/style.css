@@ -3,10 +3,14 @@ main {
     background-color: burlywood;
 }
 
-.wap {
+.contenedorDestacados {
     width: 100%;
     margin: auto;
     max-height: 100px;
+}
+
+.tituloDestacados {
+    display: flex;
 }
 
 h2 {
@@ -14,10 +18,12 @@ h2 {
     font-size: 45px;
     margin-left: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blanchedalmond;
 }
 
 h3 {
     margin-left: 20px;
+    color: rgb(122, 86, 32);
 }
 
 h4 {
@@ -33,6 +39,7 @@ h5 {
     padding: 10px 0;
     font-size: 18px;
     letter-spacing: 1px;
+    color: blanchedalmond;
 }
 
 p {
@@ -62,14 +69,24 @@ p {
     margin: auto;
 }
 
+
+/*------------- SLIDER ME VAS A ODIAR JEJE, ya te odio :D--------------*/
+
 .container {
     margin-left: 500px;
     margin-right: 500px;
-    background-color: rgb(20, 18, 20);
+    background-color: rgb(243, 237, 243);
     width: 840px;
     height: 600px;
     padding: 20px 20px;
-    clear: both;
+}
+
+.sectionSlider {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 100px;
+    background-color: burlywood;
 }
 
 ul.li {
@@ -91,8 +108,8 @@ ul.slider li {
     opacity: 0;
     width: inherit;
     height: inherit;
-    background: white;
-    transition: opacity 5s;
+    background: burlywood;
+    transition: opacity 2s;
     justify-content: center;
 }
 
@@ -107,21 +124,21 @@ ul.slider li:first-child {
     opacity: 1;
 }
 
-.menuslider {
+.menuSlider {
     text-align: center;
     margin: 185px;
 }
 
-.menuslider li {
+.menuSlider li {
     display: inline-block;
     text-align: center;
 }
 
-.menuslider li a {
+.menuSlider li a {
     display: inline-block;
-    color: rgb(15, 15, 15);
+    color: rgb(250, 243, 243);
     text-decoration: none;
-    background-color: rgb(232, 240, 239);
+    background-color: rgb(105, 109, 108);
     padding: 10px;
     width: 10px;
     height: 10px;
