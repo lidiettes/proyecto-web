@@ -25,6 +25,8 @@
     overflow: hidden;
 }
 
+
+
 /** Responsive styles **/
 
 @media screen and (max-width: 480px) {
@@ -41,3 +43,4 @@
     }
 
 }
+
