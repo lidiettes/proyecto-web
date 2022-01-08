@@ -1,7 +1,8 @@
 main {
   height: 100vh;
-  background-color: burlywood;
+  background-color: rgb(243, 236, 222);
 }
+
 /*------------- destacados -------------*/
 
 .contenedorDestacados {
@@ -19,13 +20,15 @@ h2 {
   letter-spacing: 2px;
   font-size: 45px;
   margin-left: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: blanchedalmond;
+  font-family: "OpenSans-Light";
+  color: rgb(51, 50, 49);
 }
 
 h3 {
   margin-left: 20px;
-  color: rgb(122, 86, 32);
+  color: rgb(41, 40, 38);
+  font-family: "OpenSans_SemiCondensed-Light";
+  margin-bottom: 50px;
 }
 
 h4 {
@@ -41,7 +44,7 @@ h5 {
   padding: 10px 0;
   font-size: 18px;
   letter-spacing: 1px;
-  color: blanchedalmond;
+  color: rgb(53, 52, 50);
 }
 
 p {
@@ -54,7 +57,7 @@ p {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "OpenSans-Light";
   margin-bottom: 20px;
   justify-content: center;
   gap: 20px;
@@ -67,8 +70,8 @@ p {
 
 .columnasx3 img {
   width: 100%;
-  max-height: 500px;
-  min-height: 500px;
+  max-height: 400px;
+  min-height: 400px;
 }
 
 /* .separador{

@@ -40,7 +40,7 @@ a:hover {
     margin-right: 100px;
     font-size: 2rem;
     font-family: "OpenSans-Light";
-    letter-spacing: 10px
+    letter-spacing: 2px
 }
 
 /* .main{
@@ -62,5 +62,16 @@ a:hover {
     src: url("../assets/fonts/OpenSans-Light.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
-
+}
+@font-face {
+    font-family: "OpenSans_SemiCondensed-Light";
+    src: url("../assets/fonts/OpenSans_SemiCondensed-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "OpenSans_Condensed-Light";
+    src: url("../assets/fonts/OpenSans_Condensed-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
 }
