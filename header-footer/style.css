@@ -15,16 +15,17 @@ a {
 }
 
 a:hover {
-    color: rgb(139, 139, 90);
+    color: rgb(170, 170, 166);
+    text-decoration: underline;
+
 }
+
 
 .headerStyle {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: baseline;
-    max-height: 120px;
+    align-items: center;
+    justify-content:space-between;
     background-color: rgb(243, 236, 222);
     width: 100vw;
 }
@@ -36,17 +37,30 @@ a:hover {
 }
 
 .headerStyleNav {
+    flex-wrap: wrap;
     display: flex;
-    margin-right: 100px;
+    margin-top: 20px;
+    margin-right: 200px;
+    font-size: 1rem;
+    font-family: "OpenSans-Light";
+    letter-spacing: 1px;
+    align-self: flex-start;
+}
+.headerStyleNavProduct {
+    flex-wrap: wrap;
+    display: flex;
+    letter-spacing: 1px;
+    margin-right: 200px;
     font-size: 2rem;
     font-family: "OpenSans-Light";
-    letter-spacing: 2px
+    align-self: end;
 }
 
-/* .main{
-	background-color: aquamarine;
-	height: 100%;
-} */
+
+
+
+
+
 
 .footerStyle {
     height: 100px;
@@ -54,7 +68,6 @@ a:hover {
     background-color: rgba(230, 218, 207, 0.411);
     bottom: 0px;
     width: 100%;
-    
 }
 
 @font-face {
@@ -63,12 +76,14 @@ a:hover {
     font-style: normal;
     font-weight: normal;
 }
+
 @font-face {
     font-family: "OpenSans_SemiCondensed-Light";
     src: url("../assets/fonts/OpenSans_SemiCondensed-Light.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
+
 @font-face {
     font-family: "OpenSans_Condensed-Light";
     src: url("../assets/fonts/OpenSans_Condensed-Light.ttf") format("truetype");
