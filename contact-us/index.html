@@ -13,24 +13,29 @@
 
 <body>
     <header class="headerStyle">
-        <a href="../home/index.html"><img class="headerStyleImg" src="../assets/images/logo.png"></a >
         <nav class="headerStyleNav">
-            <a href="/all-products" >All Products</a>
-            <a href="/gallery" >Gallery</a>
-            <a href="/about" >About</a>
-            <a href="/contact-us" >Contact us</a>
+            <a href="/all-products">All Products</a>
+            <a href="/gallery">Gallery</a>
+            <a href="/about">About</a>
+            <a href="/contact-us">Contact us</a>
         </nav>
+        <a href="../home/index.html"><img class="headerStyleImg" src="../assets/images/logo.png"></a>
+
+        <!-- <nav class="headerStyleNavProduct">
+            <a href="/all-products">Furniture ·</a>
+            <a href="/gallery">Lifestyle · </a>
+            <a href="/about">Kitchen</a>
+        </nav> -->
     </header>
 
     <main>
-        
+
             <form action="../home/index.html" name="myForm" onsubmit="return(validate());">
                 <input type="text" name="name" placeholder="Name" />
                 <input type="email" name="email" placeholder="Email" />
                 <input type="text" name="description" id="description" placeholder="Description" />
                 <button type="submit" class="button">Send</button>
             </form>
-        
     </main>
     <footer class="footerStyle ">
         <p>Soy un footer muy bonito</p>
