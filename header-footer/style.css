@@ -20,7 +20,7 @@ a:hover {
 
 }
 
-.headerStyle {
+.header {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -30,12 +30,12 @@ a:hover {
     height: 300px;
 }
 
-.headerStyleImg {
+.header__logo {
     height: 300px;
     width: 300px;
 }
 
-.headerStyleNav {
+.header__nav {
     flex-wrap: wrap;
     display: flex;
     margin-top: 10px;
@@ -44,9 +44,11 @@ a:hover {
     font-family: "OpenSans-Light";
 }
 
+/* ------ footer------- */
 
-.footerStyle {
-    height: 500px;
+.footer {
+    position: relative;
+    height: 300px;
     width: 100%;
     margin-top: 1100px;
     background-color: rgba(110, 109, 108, 0.411);
@@ -54,7 +56,7 @@ a:hover {
     font-family: "OpenSans_Condensed-light";
 }
 
-.columns__footer {
+.footer__columns {
     display: block;
 }
 
@@ -63,18 +65,21 @@ a:hover {
     margin-left: 50px;
     width: 30%;
     float: left;
+    list-style: none;
 }
 
 .column2 {
     margin-top: 40px;
     width: 30%;
     float: left;
+    list-style: none;
 }
 
 .column3 {
     margin-top: 40px;
     width: 30%;
     float: left;
+    list-style: none;
 }
 
 
