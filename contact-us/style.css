@@ -16,7 +16,7 @@ input {
 }
 
 input:focus {
-    border: 2px solid rgb(114, 69, 69);
+    border: 2px solid #BAD7DF;
 }
 
 #description {
@@ -27,14 +27,14 @@ input:focus {
 
 button {
     height: 35px;
-    background: none;
-    border: solid 1px;
+    background-color:#FFE2E2;
+    border: solid 1px #f8bbd0;
     border-radius: 10px;
 }
 
 button:hover {
     cursor: pointer;
-    background-color: rgb(245, 233, 227);
+    background-color: #f8bbd0;
 }
 
 main {

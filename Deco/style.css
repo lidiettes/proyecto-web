@@ -35,7 +35,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: lightcoral;
+    background-color: #FFE2E2;
 }
 
 .foto{
@@ -44,7 +44,7 @@ h1 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 800px;
+    height: 500px;
     width:50vw;
 }
 
@@ -53,5 +53,5 @@ h1 {
     width: 400px;
     word-break: break-all;
     font-family: "OpenSans-Light";
-    font-size: 60px;
+    font-size: 40px;
 }
