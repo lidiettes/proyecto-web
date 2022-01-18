@@ -11,9 +11,11 @@ body {
 a {
     margin: 10px;
     text-decoration: none;
-    color: #171718;
-
+    color: #20143b; 
+    margin-left: 50px;
 }
+
+
 
 a:hover {
     color: #f6fac8;
@@ -22,31 +24,41 @@ a:hover {
 
 .header {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
+    flex-direction: column;
     flex-wrap: wrap;
     background-color: #BAD7DF;
     width: 100vw;
-    height: 300px;
+    height: 200px;
+
 }
 
-.header__logo {
+/* .header__logo {
     height: 225px;
     margin-right: 1200px;
-    float: right;
 }
-
+ */
 
 .header__nav {
     flex-wrap: wrap;
+    align-self: center;
+    height: 35px;
     display: flex;
-    font-size: 1rem;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 0.8rem;
     letter-spacing: 1px;
     font-family: "OpenSans-Light";
     background-color: #8aacc8;
     width: 100vw;
 }
+.brand {
+    color: #20143b; ;
+    margin-top: 60px;
+    font-family: "Northern_Worssley";
+    letter-spacing: 20px;
+    font-size: 1rem;
 
+}
 /* ------ footer------- */
 
 .footer {
@@ -118,6 +130,13 @@ a:hover {
 @font-face {
     font-family: "OpenSans_Condensed-Light";
     src: url("../assets/fonts/OpenSans_Condensed-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Northern_Worssley";
+    src: url("../assets/fonts/Northern_Worssley.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }

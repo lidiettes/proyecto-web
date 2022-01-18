@@ -1,5 +1,5 @@
 main {
-  height: 100vh;
+  height: 200vh;
 }
 
 /*------------- destacados -------------*/
@@ -83,6 +83,15 @@ p {
   max-height: 500px;
 }
 
+.news__tittle--second {
+  background-color: rgb(241, 212, 235);
+  height: 300px;
+}
+.separador {
+  background-color: rgb(245, 242, 208);
+  height: 80px;
+}
+
 /*------------- SLIDER -------------*/
 
 .slider {
@@ -92,12 +101,9 @@ p {
 }
 
 .slider__container {
-  margin-left: 200px;
-  margin-right: 200px;
-  width: 2000px;
+  width: 400vw;
   height: 600px;
   padding: 20px 20px;
-  margin-top: 20px;
 }
 
 ul.li {
@@ -136,13 +142,11 @@ ul.slider__container--diapo li:first-child {
   text-align: center;
   margin: 5px;
   width: 2000px;
-
 }
 
 .slider__menu li {
   display: inline-block;
   text-align: center;
-
 }
 
 .slider__menu li a {
@@ -151,7 +155,6 @@ ul.slider__container--diapo li:first-child {
   background-color: rgb(15, 15, 15);
   padding: 5px;
   border-radius: 50%;
-
 }
 
 ul.slider li:target {
