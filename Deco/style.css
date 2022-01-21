@@ -54,4 +54,7 @@ h1 {
     word-break: break-all;
     font-family: "OpenSans-Light";
     font-size: 40px;
+
+    /* padding: 20px 20px 20px 20px; */
+    border: solid 1px white;
 }

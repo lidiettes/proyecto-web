@@ -85,6 +85,7 @@ p {
 
 .news__tittle--second {
   background-color: rgb(241, 212, 235);
+  padding: 10px;
   height: 300px;
 }
 .separador {

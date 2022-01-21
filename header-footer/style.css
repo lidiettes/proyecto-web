@@ -4,115 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #F6F6F6;
-}
-
-a {
-    margin: 10px;
-    text-decoration: none;
-    color: #20143b; 
-    margin-left: 50px;
-}
-
-
-
-a:hover {
-    color: #f6fac8;
-
-}
-
-.header {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    background-color: #BAD7DF;
-    width: 100vw;
-    height: 200px;
-
-}
-
-/* .header__logo {
-    height: 225px;
-    margin-right: 1200px;
-}
- */
-
-.header__nav {
-    flex-wrap: wrap;
-    align-self: center;
-    height: 35px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    font-size: 0.8rem;
-    letter-spacing: 1px;
-    font-family: "OpenSans-Light";
-    background-color: #8aacc8;
-    width: 100vw;
-}
-.brand {
-    color: #20143b; ;
-    margin-top: 60px;
-    font-family: "Northern_Worssley";
-    letter-spacing: 20px;
-    font-size: 1rem;
-
-}
-/* ------ footer------- */
-
-.footer {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    height: 300px;
-    width: 100%;
-    margin-top: 1100px;
-    background-color: #C3B4D2;
-    bottom: 0px;
-    font-family: "OpenSans_Condensed-light";
-}
-
-.footer__columns {
-    display: block;
-}
-
-.column1 {
-    margin-top: 40px;
-    margin-left: 50px;
-    width: 30%;
-    float: left;
-    list-style: none;
-}
-
-.column2 {
-    margin-top: 40px;
-    width: 30%;
-    float: left;
-    list-style: none;
-}
-
-.column3 {
-    margin-top: 40px;
-    width: 30%;
-    float: left;
-    list-style: none;
-}
-
-.column4 {
-    margin-top: 40px;
-    width: 30%;
-    float: left;
-    list-style: none;
-}
-
-.footer__firma {
-    position: relative;
-    bottom: 0px;
-}
-
 @font-face {
     font-family: "OpenSans-Light";
     src: url("../assets/fonts/OpenSans-Light.ttf") format("truetype");
@@ -140,3 +31,116 @@ a:hover {
     font-style: normal;
     font-weight: normal;
 }
+
+body {
+    background-color: #F6F6F6;
+}
+
+a {
+    margin: 10px;
+    text-decoration: none;
+    color: #20143b;
+}
+
+a:hover {
+    color: #f6fac8;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #BAD7DF;
+    width: 100vw;
+    height: 200px;
+
+
+}
+
+/* .header__logo {
+    height: 225px;
+    margin-right: 1200px;
+}
+ */
+
+.header__nav {
+    flex-wrap: wrap;
+    align-self: center;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    font-family: "OpenSans-Light";
+    background-color: #8aacc8;
+    width: 100vw;
+}
+
+.brand {
+    color: #20143b;
+    margin-top: 60px;
+    margin-left: 30px;
+    font-family: "Northern_Worssley";
+    letter-spacing: 20px;
+    font-size: 1rem;
+}
+
+/* ------ footer------- */
+
+.footer {
+    position: relative;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: #C3B4D2;
+    font-family: "OpenSans_Condensed-light";
+    min-height: 300px;
+}
+
+.footer__columns {
+    display: block;
+    padding:30px;
+
+}
+
+.footer__columns--menu {
+    margin-top: 40px;
+    width: 25%;
+    float: left;
+    list-style: none;
+}
+
+.footer__columns--company {
+    margin-top: 40px;
+    width: 25%;
+    float: left;
+    list-style: none;
+}
+
+.footer__columns--social {
+    margin-top: 40px;
+    width: 25%;
+    float: left;
+    list-style: none;
+}
+
+.footer__columns--general {
+    margin-top: 40px;
+    width: 25%;
+    float: left;
+    list-style: none;
+}
+
+.footer__sign {
+    flex-direction: none;
+    align-self: flex-end;
+    margin-top: 80px;
+    padding: 30px;
+}
+
+
