@@ -6,28 +6,51 @@ main {
 
 /*------------- destacados -------------*/
 
-.news {
+/* .news {
   width: 100%;
   margin: auto;
   max-height: 100px;
-}
+} */
 
-.news__tittle {
+.container__main {
   display: flex;
-  max-height: 200px;
-  padding: 20px 20px 20px 20px;
-  background: rgb(155, 180, 201);
+  height: 600px;
+  background: url("../assets/images/naran.jpg");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
 }
 
-.news__tittle--h2 {
-  font-size: 35px;
+.container__main--text {
+  width: 50%;
+}
+
+.container__main--text p {
+  font-size: 45px;
+  margin-top: 50px;
+  margin-left: 100px;
+  width: 100%;
   font-family: "OpenSans-Light";
   color: rgb(51, 50, 49);
+  font-weight: bold;
+}
+
+.main__button {
+  margin-left: 550px;
+  margin-top: 30px;
+  font-family: "OpenSans-Light";
+  height: 40px;
+  width: 100px;
+  background: rgb(217, 224, 206);
+  border-radius: 20PX;
+  font-weight: 400;
+  align-items: center;
+  border: 1px  rgb(129, 112, 131);
+
 }
 
 /* h3 {
   margin-left: 20px;
-  color: rgb(41, 40, 38);
   font-family: "OpenSans_SemiCondensed-Light";
   margin-bottom: 50px;
 }
@@ -53,12 +76,11 @@ h5 {
 p {
   color: rgb(52, 54, 53);
   font-size: 20px;
-  font-family: "OpenSans-Light";
-  max-width: 450px;
+  font-family: "OpenSans_Condensed-light";
 }
 
 .news__container {
-  margin-top: 40px;
+  margin-top: 120px;
   width: 100%;
   min-height: 800px;
   display: flex;
@@ -82,35 +104,39 @@ p {
   position: relative;
   max-width: 450px;
   max-height: 500px;
+  object-fit: cover;
 }
 
-.news__tittle--second {
+.banner__h2 {
   background-color: rgb(241, 212, 235);
   padding: 40px;
-  height: 2 00px;
+  font-family: "OpenSans_Condensed-light";
+  font-weight: normal;
+
 }
 
 /* -------separador--------- */
 
 .separador {
   background-color: rgb(245, 242, 208);
-  height: 80px;
+  height: 20px;
 }
 
 
 /* --------Cards--------- */
 
 .container__cards {
-  width: 80%;
+  width: 100%;
   display: flex;
-  height: 800px;
-  padding: 20px;
+  height: 1000px;
+  padding: 100px;
   justify-content: center;
   margin-top: 40px;
 }
 
 .card {
-  width: 50%;
+  width: 30%;
+  height: 800px;
   margin: 20px;
   border-radius: 6px;
   overflow: hidden;
@@ -127,12 +153,14 @@ p {
 
 .card img {
   width: 100%;
-  height: 500px;
+  height: 600px;
+  object-fit: cover;
 }
 
 .card .content__card {
   padding: 15px;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .card .content__card p {
@@ -157,6 +185,8 @@ p {
   border: 1px solid rgb(129, 112, 131);
   border-radius: 4px;
   transition: all 200ms ease;
+  font-family: "OpenSans-Light";
+
 }
 
 .card .content__card a:hover {

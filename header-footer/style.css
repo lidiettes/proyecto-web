@@ -53,7 +53,7 @@ a:hover {
     flex-wrap: wrap;
     background-color: #BAD7DF;
     width: 100vw;
-    height: 200px;
+    height: 150px;
 
 
 }
@@ -65,22 +65,25 @@ a:hover {
  */
 
 .header__nav {
-    flex-wrap: wrap;
-    align-self: center;
-    height: 35px;
-    display: flex;
+    width: 100vw;
+    background-color: #8aacc8;
     flex-direction: row;
     justify-content: flex-end;
-    font-size: 0.8rem;
-    letter-spacing: 1px;
+    flex-wrap: wrap;
+    align-self: center;
+    height: 30px;
+    display: flex;
     font-family: "OpenSans-Light";
-    background-color: #8aacc8;
-    width: 100vw;
+    font-size: 0.7rem;
+    letter-spacing: 4px;
+ 
+
+
 }
 
 .brand {
     color: #20143b;
-    margin-top: 60px;
+    margin-top: 30px;
     margin-left: 30px;
     font-family: "Northern_Worssley";
     letter-spacing: 20px;
@@ -144,3 +147,57 @@ a:hover {
 }
 
 
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+/*Demo 2*/
+ul#demo2 li a {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  ul#demo2 li:hover a {
+    transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+  }
+
+
+  [class*="brandico-"]:before {
+    font-family: 'brandico', sans-serif;
+  }
+  
+  ul.social-buttons {@import url(http://weloveiconfonts.com/api/?family=brandico);
+
+    text-align:end;
+    margin-top: 50px;
+    margin-right: 30px;
+  }
+  
+  ul.social-buttons li {
+    display: inline-block;
+    margin: 0 1px;
+  }
+  
+  ul.social-buttons li a {
+    width: 40px;
+    height: 40px;
+    display: block;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 60px;
+    color: white;
+  }
+  
+  ul.social-buttons li a.brandico-twitter-bird {
+    background-color: #4099FF;
+  }
+  
+  ul.social-buttons li a.brandico-facebook {
+    background-color: #3B5998;
+  }
+  
+  ul.social-buttons li a.brandico-instagram {
+    background-color: #3f729b;
+  }
+  
+  ul.social-buttons li a.brandico-linkedin {
+    background-color: #0e76a8;
+  }
+  

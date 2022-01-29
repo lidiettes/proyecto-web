@@ -1,5 +1,5 @@
 main {
-    height: 100vh;
+    height: 200vh;
 }
 
 
@@ -7,18 +7,21 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../assets/images/textura.jpg");
+    background-image: url("../assets/images/jarron.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
-    height: 400px;
+    height: 500px;
+    object-fit: cover;
+    position: relative;
 
 }
 
 h1 {
     font-family: "OpenSans-Light";
     font-size: 100px;
+    position: absolute;
 }
 
 .container__bloque {
@@ -46,6 +49,7 @@ h1 {
     background-size: cover;
     height: 500px;
     width:50vw;
+    object-fit: cover;
 }
 
 .cajita__colorplano {
