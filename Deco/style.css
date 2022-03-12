@@ -7,7 +7,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../assets/images/jarron.jpg");
+    background-image: url("../assets/images/composicion.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,6 +22,7 @@ h1 {
     font-family: "OpenSans-Light";
     font-size: 100px;
     position: absolute;
+    color:rgb(62, 54, 95);
 }
 
 .container__bloque {
@@ -38,7 +39,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #FFE2E2;
+    background-color: #eff1e2;
 }
 
 .foto{
